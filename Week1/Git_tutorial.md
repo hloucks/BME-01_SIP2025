@@ -72,27 +72,25 @@ Now go back to github on your web browser and click the green "New" button to cr
 
 Set the repository name to be the same as the name of the directory you executed `git init` in, which should be `notes `
 
-I also recomend setting this to private as you likely want your research notes to not be published publically.  
+I also recommend setting this to private as you likely want your research notes to not be published publicly.  
 Click "Create Repository" 
+
+
+
 
 Now copy the HTTPS link for the repo you've just created and sub it in for the URL in the command below 
 
 ```
 git remote add origin https://github.com/username/notes.git
 ```
-For the next step you will need to be logged in to your github account. You can do this by running 
-```
-gh auth login
-```
-And select GitHub.com, HTTPS, Yes, and whatever method you would like to login with. Login with the web browser might be easier, and then follow the instructions. 
+In order to authenticate who you are you will need to have an access token set up. Follow the instructions here for a [personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Make sure to copy it somewhere safe because you can't see it again!
 
-This will save your login information so that you don't have to provide your credentials every time you push to a repo. If you don't want to save your credentials you can also create a personal access token which you provide every time you log in more information [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-
-Now we are finally ready to push our file to our new repo!  
-
+Now you are ready to push your changes up to your new repo 
 ```
 git push -u origin main
 ```
+
+when you push git will ask for your username and password, the password prompt is where you should enter your access token as your password. 
 
 Now refresh your github repo in the browser, you should be able to see your file in the browser and look at it. 
 

@@ -1,4 +1,4 @@
-# BME Bootcamp 2023 Git Tutorial using google cloud console
+# BME-01 SIP Git Tutorial 
 Tutorial modeled on [this Plos tutorial](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
 
 

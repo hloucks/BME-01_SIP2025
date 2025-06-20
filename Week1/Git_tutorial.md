@@ -147,7 +147,7 @@ Before you can push to this repo you will need to accept my invitation to join t
 
 ```
 cd
-https://github.com/hloucks/BME-01_SIP2025.git
+git clone https://github.com/hloucks/BME-01_SIP2025.git
 cd BME-01_SIP2025/Week1 
 
 

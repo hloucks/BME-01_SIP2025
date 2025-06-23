@@ -21,6 +21,6 @@ Sequence 0 is our reference and we have two sequences (1 and 2) which we want to
 To run python code you will need to be in an environment containing python and any associated packages. I included a yml file that should allow you to create the environment with this command:
 `conda env create -f SIP2025_week2.yml`
 Then you can activate the environment by running
-`conda activate SIP2025`
+`conda activate SIP2025_week2`
 To run your python script you can execute the following code on the command line
 `python3 Week2_starting_template.py`
